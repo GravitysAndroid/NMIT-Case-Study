@@ -4,12 +4,13 @@ using System.Text;
 
 namespace Student_Enrollment_2._0
 {
-    class ClsStudent
+    public class ClsStudent
     {
         private string _ID;
         private string _Name;
         private DateTime _DOB = DateTime.Today;
         private decimal _Balance;
+        private string _Student;
 
         public override string ToString()
         {
@@ -41,3 +42,4 @@ namespace Student_Enrollment_2._0
         }
     }
 }
+
