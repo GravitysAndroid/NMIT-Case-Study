@@ -1,5 +1,4 @@
-﻿namespace Student_Enrollment_2._0
-{
+﻿namespace Student_Enrollment_2
     partial class FrmStudent
     {
         /// <summary>

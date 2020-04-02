@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace Student_Enrollment_2._0
+namespace Student_Enrollment_2
 {
     public class ClsStudent
     {
@@ -10,7 +10,6 @@ namespace Student_Enrollment_2._0
         private string _Name;
         private DateTime _DOB = DateTime.Today;
         private decimal _Balance;
-        private string _Student;
 
         public override string ToString()
         {

@@ -6,7 +6,7 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Student_Enrollment_2._0
+namespace Student_Enrollment_2
 {
     public partial class FrmStudent : Form
     {

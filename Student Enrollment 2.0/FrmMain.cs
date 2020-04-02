@@ -6,12 +6,15 @@ using System.Drawing;
 using System.Text;
 using System.Windows.Forms;
 
-namespace Student_Enrollment_2._0
+namespace Student_Enrollment_2
 {
     public partial class FrmMain : Form
     {
         private ClsStudent _Student;
         private FrmStudent _StudentForm = new FrmStudent();
+        //private FrmStudent _MOEStudentForm = new FrmMOEStudent();
+        //private FrmStudent _IntStudentForm = new FrmInternationalStudent();
+        private string[] _StudentType = { "MOE (local)", "International" };
         public FrmMain()
         {
             InitializeComponent();
